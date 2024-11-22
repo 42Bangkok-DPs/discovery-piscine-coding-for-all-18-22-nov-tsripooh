@@ -1,5 +1,4 @@
 def cais_in_check(piece, position, king_pos, board):
-
     directions = {
         'P': [(-1, -1), (-1, 1)],  # Pawn เดินทแยงหน้า
         'B': [(-1, -1), (-1, 1), (1, -1), (1, 1)],  # Bishop เดินทแยงทุกทิศ
